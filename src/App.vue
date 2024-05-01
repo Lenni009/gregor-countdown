@@ -5,7 +5,7 @@ import JSConfetti from 'js-confetti';
 
 const meetingTimestamp = 1714629600000; // Thursday, 2 May 2024, 8am
 
-const { timestamp, pause } = useTimestamp({ offset: 0, controls: true });
+const { timestamp, pause } = useTimestamp({ controls: true });
 
 const timeDiff = computed(() => meetingTimestamp - timestamp.value);
 
@@ -27,10 +27,9 @@ const counter = ref(0);
 watchThrottled(
   timeDiff,
   (newVal) => {
-    if (newVal <= 0) {
-      showConfetti();
-      counter.value++;
-    }
+    if (newVal > 0) return;
+    showConfetti();
+    counter.value++;
   },
   { throttle: 1000 }
 );
