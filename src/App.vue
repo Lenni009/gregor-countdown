@@ -3,7 +3,7 @@ import { useTimestamp, watchThrottled } from '@vueuse/core';
 import { computed, ref, watchEffect } from 'vue';
 import JSConfetti from 'js-confetti';
 
-const meetingTimestamp = 1714629600000; // Thursday, 2 May 2024, 8am
+const meetingTimestamp = 1714636200000; // Thursday, 2 May 2024, 9:50am
 
 const { timestamp, pause } = useTimestamp({ controls: true });
 
