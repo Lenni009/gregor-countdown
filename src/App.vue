@@ -49,7 +49,7 @@ watchEffect(() => {
     </header>
     <main class="text-center">
       <div v-if="timeDiff > 0">
-        <p>Gregor und Lenni sehen sich wieder in:</p>
+        <p>Gregor sieht seine Klasse wieder in:</p>
         <p>
           {{ days }} {{ days === 1 ? 'Tag' : 'Tage' }}, {{ hoursLeft }} {{ hoursLeft === 1 ? 'Stunde' : 'Stunden' }},
           {{ minutesLeft }} {{ minutesLeft === 1 ? 'Minute' : 'Minuten' }}, {{ secondsLeft }}
@@ -57,8 +57,8 @@ watchEffect(() => {
         </p>
       </div>
       <div v-else>
-        <p class="success">Gregor und Lenni sind wieder vereint!</p>
-        <p>Richtige Haifischmentalität bei den beiden</p>
+        <p class="success">Gregor der Rest der ME21b sind wieder vereint!</p>
+        <p>Richtige 🦈-Mentalität mal wieder</p>
       </div>
     </main>
   </div>
