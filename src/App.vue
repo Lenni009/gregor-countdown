@@ -57,7 +57,7 @@ watchEffect(() => {
         </p>
       </div>
       <div v-else>
-        <p class="success">Gregor der Rest der ME21b sind wieder vereint!</p>
+        <p class="success">Gregor und der Rest der ME21b sind wieder vereint!</p>
         <p>Richtige 🦈-Mentalität mal wieder</p>
       </div>
     </main>
