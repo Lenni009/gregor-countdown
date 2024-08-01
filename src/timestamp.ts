@@ -1,2 +1,2 @@
 // https://www.unixtimestamp.com/
-export const meetingTimestamp = 1715752800000; // Wednesday, 15 May 2024, 8:00am
+export const meetingTimestamp = 1723816800000; // Friday, 16 August 2024, 12:00pm
