@@ -64,7 +64,7 @@ watchEffect(() => {
   </div>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 .container {
   margin-block: 2rem;
 }
