@@ -21,6 +21,6 @@
     "@vitejs/plugin-vue": "^5.1.4",
     "@vueuse/core": "^11.1.0",
     "js-confetti": "^0.12.0",
-    "vue-tsc": "^2.1.6"
+    "vue-tsc": "^2.1.8"
   }
 }
