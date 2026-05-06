@@ -19,7 +19,7 @@
   "dependencies": {
     "@picocss/pico": "^2.1.1",
     "@vitejs/plugin-vue": "^6.0.6",
-    "@vueuse/core": "^14.2.1",
+    "@vueuse/core": "^14.3.0",
     "js-confetti": "^0.13.1",
     "vue-tsc": "^3.2.8"
   }
